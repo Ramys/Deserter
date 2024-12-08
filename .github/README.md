@@ -2,7 +2,5 @@
 
 ## mod-custom-deserter
 
-For each time a player abandons a bg, it will give them a progressive deserter time.
-The duration of the deserter is given by the following formula:
-duration = base_duration + deserter_count * base_duration
+Para cada vez que um jogador abandona um bg, ele receberá um tempo de desertor progressivo. A duração do desertor é dada pela seguinte fórmula: duration = base_duration deserter_count * base_duration
 
