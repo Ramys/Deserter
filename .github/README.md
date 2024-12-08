@@ -6,5 +6,3 @@ For each time a player abandons a bg, it will give them a progressive deserter t
 The duration of the deserter is given by the following formula:
 duration = base_duration + deserter_count * base_duration
 
-Written by Nefertumm
-https://github.com/Nefertumm
