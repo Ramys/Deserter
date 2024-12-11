@@ -1,0 +1,13 @@
+#EXTM3U
+#EXTINF:-1 tvg-name="Arte 1 FHD" tvg-logo="https://acstatic.co/logos/canais/arte1.png" group-title="Canais | Documentários",Arte 1 FHD
+http://vptdlxun.online:80/reginaldooliver1/oliverreginaldo/71777.ts
+#EXTINF:-1 tvg-name="Arte 1 FHD [H265]" tvg-logo="https://acstatic.co/logos/canais/arte1.png" group-title="Canais | Documentários",Arte 1 FHD [H265]
+http://vptdlxun.online:80/reginaldooliver1/oliverreginaldo/71778.ts
+#EXTINF:-1 tvg-name="Arte 1 HD" tvg-logo="https://acstatic.co/logos/canais/arte1.png" group-title="Canais | Documentários",Arte 1 HD
+http://vptdlxun.online:80/reginaldooliver1/oliverreginaldo/71779.ts
+#EXTINF:-1 tvg-name="Arte 1 SD" tvg-logo="https://acstatic.co/logos/canais/arte1.png" group-title="Canais | Documentários",Arte 1 SD
+http://vptdlxun.online:80/reginaldooliver1/oliverreginaldo/71780.ts
+#EXTINF:-1 tvg-name="AXN 4K FHDR" tvg-logo="https://acstatic.co/logos/canais/axn.png" group-title="Canais | 4K [FHDR]",AXN 4K FHDR
+http://vptdlxun.online:80/reginaldooliver1/oliverreginaldo/90645.ts
+#EXTINF:-1 tvg-name="AXN FHD" tvg-logo="https://acstatic.co/logos/canais/axn.png" group-title="Canais | Filmes e Séries",AXN FHD
+http://vptdlxun.online:80/reginaldooliver1/oliverreginaldo/71781.ts
