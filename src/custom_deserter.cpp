@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU GPLv2+ license
- * Written by Nefertumm : https://github.com/Nefertumm
+ * Written by Nefertumm 
  */
 
 #include "ScriptMgr.h"
@@ -44,12 +44,12 @@ public:
 
                 time_t now = GameTime::GetGameTime().count();
                 ObjectGuid::LowType const guid = player->GetGUID().GetCounter();
-                // First we get the amount of deserters from db
+                // Primeiro, obtemos a quantidade de desertores do db
                 uint32 deserterCount = GetDeserterCount(guid, now);
-                // Calculate deserter duration
+                // Calcular a duração do desertor
                 int32 duration = baseDuration + (deserterCount * baseDuration);
 
-                // After that we check if the player already has deserter debuff
+                // Depois disso, verificamos se o jogador já tem o debuff de desertor
                 if (Aura* deserterAura = player->GetAura(SPELL_DESERTER))
                 {
                     int32 auraDuration = deserterAura->GetDuration();
@@ -62,14 +62,14 @@ public:
                         return;
                     aura->SetDuration(duration);
                 }
-                // Save deserter to db
+                // Salvar o desertor no banco de dados
                 CharacterDatabase.DirectExecute("INSERT INTO custom_deserter (Guid, Time, Duration) VALUES ({}, {}, {})", guid, now, duration);
             }
         }
     }
 };
 
-// Add all scripts in one
+// Adicione todos os scripts em um só
 void AddCustomDeserterScripts()
 {
     new CustomDeserter();
